@@ -13,3 +13,9 @@ Prompts the user to change the email address or resend the OTP if verification f
 •Technologies Used
 Language: Python
 Email Delivery: SMTP (Simple Mail Transfer Protocol)
+
+
+
+
+© 2024 Sahil Gole. All rights reserved.
+
