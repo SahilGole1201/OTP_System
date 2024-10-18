@@ -1,19 +1,17 @@
-•OTP System using Python and SMTP
+# OTP Verification System
 
-•Overview
-This OTP (One-Time Password) System is a simple and efficient implementation using Python and SMTP. It generates and sends OTPs via email for user verification, providing a basic yet secure authentication system without relying on any external libraries or frameworks beyond Python’s built-in functionalities.
+## Overview
+The OTP Verification System is a Python-based application that generates a One-Time Password (OTP) and sends it to a user's email for verification. The system utilizes the smtplib module to send emails and includes basic email validation to ensure the provided email address is in the correct format.
 
-•Features
-Generates a random 6-digit OTP for secure user verification.
-Sends OTP via email using the SMTP protocol.
-Validates email addresses to ensure they are correctly formatted before sending OTPs.
-Allows OTP re-sending in case of an invalid entry.
-Prompts the user to change the email address or resend the OTP if verification fails.
+## Features
+- **OTP Generation**: Generates a random 6-digit OTP for user verification.
+- **Email Sending**: Sends the OTP to the user’s email address using SMTP.
+- **Email Validation**: Validates the email address format before sending the OTP.
+- **Resend OTP**: Provides an option to resend the OTP if the initial verification fails.
 
-•Technologies Used
-Language: Python
-Email Delivery: SMTP (Simple Mail Transfer Protocol)
-
+## Technologies Used
+- **Python**: The programming language used to build the application.
+- **smtplib**: A built-in Python module for sending emails using SMTP.
 
 
 
